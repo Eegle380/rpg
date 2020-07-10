@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+   <head>
+    <script type="text/javascript" src="jquery-3.5.1.js"></script>
+    <script type="text/javascript" src="Personagens.js"></script>
+  
+   <link rel="stylesheet" href="css3/bootstrap-4.5.0-dist/css/bootstrap.min.css">
+   <link rel="stylesheet" href="css3/style.css">
+   <title>RPG do Fialho</title> 
+
+
+   </head>
+  <body id="C">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+           <span class="navbar-toggler-icon"></span>
+         </button>
+         <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+           <a class="navbar-brand" href="#" id="F">Fialho</a>
+           <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+             <li class="nav-item ">
+               <a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link" href="Dado-Virtual.html">Dado Virtual</a>
+             </li>
+             <li class="nav-item active">
+               <a class="nav-link " href="Personagens.html" >Personagens</a>
+             </li>
+           </ul>
+           <div class="form-inline my-2 my-lg-0">
+             <input class="form-control mr-sm-2" type="search" id="pesquisa" placeholder="Pesquise(Personagens)" aria-label="Search">
+             <button  class="btn btn-outline-success  mr-sm-2"  type="submit"  onclick="buscar()">Buscar</button>
+             
+            </div>
+         </div>
+       </nav>
+       <br>
+       <br>
+
+
+     
+
+       <div class="container" >
+        <div class="row">
+           <h3 id="separar"><br></h3>
+           
+           
+           <table class="table table-dark" id="tabela">
+            <tr>
+               
+              <td><img id="imgs" src="" ></td>  
+              <br>
+             <tr> <td>Classe:             <img id="imgc" src="" > <td id="classe"> </td></td></tr>
+            <tr><td>Nome: <td  id="nome"></td></td></tr>
+
+
+            <tr><td id="rbb">HP:
+           <div class="progress">
+              <div class="progress-bar bg-danger" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" id="hp"></div>
+            </div> 
+         
+            </tr>
+
+     
+            
+               <tr>
+                <td  id="ye">UT <td  id="habilidades"></td></td>
+                 
+               </tr>
+               <tr><td>Item Atual: <td  id="itema"></td></td></tr>
+               <tr><td id="red">ATK: <td  id="atk"></td></td></tr>
+               <tr><td id="gy">DEF: <td  id="def"></td></td></tr>
+
+
+               <tr><td id="bs">STR: 
+
+                <div class="progress">
+                  <div class="progress-bar bg-info" role="progressbar" style="width: 100%" aria-valuenow="50"  aria-valuemin="0" aria-valuemax="100" id="str"></div>
+                </div> 
+
+               </td></tr>
+               <tr><td id="cya">ACC: <td  id="acc"></td></td></tr>
+               <tr>
+
+                 <td>1ª skill:</td>
+                <td id="1skill"></td>
+                <td >Stamina:<td id="gstr"></td>  </td>   
+                <td><td id="edano"></td></td>
+                <td id="extra"></td>
+                </tr>
+
+                <tr>
+                  <td>2ª skill:</td>
+                  <td id="2skill"></td>
+                  <td >Stamina:<td id="gstr2"></td>  </td>   
+                  <td><td id="edano2"></td></td>
+                  <td id="extra2"></td>
+                 </tr>
+                 <tr>
+                  <td>3ª skill:</td>
+                 <td id="3skill"></td>
+                 <td >Stamina:<td id="gstr3"></td>  </td>   
+                 <td><td id="edano3"></td></td>
+                 <td id="extra3"></td>
+                 </tr>
+
+                 <tr>
+                  <td>4ª skill:</td>
+                 <td id="4skill"></td>
+                 <td >Stamina:<td id="gstr4"></td>  </td>   
+                 <td><td id="edano4"></td></td>
+                 <td id="extra4"></td>
+                 </tr>
+
+              <tbody>
+                <tr>
+                  <td >História<td  id="hist"></td></td>
+                   
+                 </tr>
+                
+            
+             </tbody>
+           </table>
+       
+       
+        </div>
+       
+       </div>
+
+       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </body>
+
+
+</html>

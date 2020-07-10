@@ -1,0 +1,191 @@
+#F{
+   color: #32cd32;
+   cursor: default;
+
+}
+#Resultado{
+  color: coral;
+  font-size: 40px;
+  border-radius: 5px;
+  width: 100px;
+  height: 100px;
+  border-color: coral;
+  border-width: 2px;
+  border-style: solid;
+ 
+
+
+}
+#Resultado2{
+    color: rgb(21, 112, 128);
+    font-size: 40px;
+    border-radius: 5px;
+    width: 100px;
+    height: 100px;
+    border-color: rgb(21, 112, 128);
+    border-width: 2px;
+    border-style: solid;
+    
+ 
+}
+#Resultado3{
+    color: rgb(54, 219, 4);
+    font-size: 40px;
+    border-radius: 5px;
+    width: 100px;
+    height: 100px;
+    border-color: rgb(54, 219, 4);
+    border-width: 2px;
+    border-style: solid;
+}
+#Resultado4{
+  color: rgb(105, 7, 150);
+  font-size: 40px;
+  border-radius: 5px;
+  width: 100px;
+  height: 100px;
+  border-color: rgb(105, 7, 150);
+  border-width: 2px;
+  border-style: solid;
+}
+#Resultado5{
+  color: rgb(207, 3, 3);
+  font-size: 40px;
+  border-radius: 5px;
+  width: 100px;
+  height: 100px;
+  border-color: rgb(207, 3, 3);
+  border-width: 2px;
+  border-style: solid;
+}
+#C{
+  background-color: #222831;
+
+
+
+}
+#divs{
+text-align: center;  
+left: 500px;
+
+}
+#imgs{
+  width: 200px;
+
+
+}
+#as{
+color: cornsilk;
+text-align: center;
+size: 100px;
+border-radius: 5px;
+width: 200px;
+height: 200px;
+border-color: red;
+border-width: 2px;
+border-style: solid;
+
+
+}
+#g{
+  color: white;
+  width: 600px;
+  font: 100;
+  background:#222831 ;
+  transition: width 1s, transform 1s ;
+  text-align: center;
+  transform: translate(50px);
+
+}
+#g:hover{
+  width: 550px;
+  transform: scaleY(1.15);
+}
+#txtN{
+  color: aliceblue;
+  font-family: Arial, Helvetica, sans-serif;
+
+
+}
+#txtH3{
+  color: aliceblue;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: underline ;
+
+}
+#d-tbl{
+  color: aliceblue;
+  position: absolute;
+  right: 1000px;
+  top: 60px;
+  border-radius: 10px;
+  background-color: #29313d;
+
+
+}
+#accp{
+  width: 150px;
+  transform: translate(200px);
+
+
+}
+#drF{
+color: red;
+
+
+}
+#drM{
+color:yellow;
+
+
+}
+#drO{
+  color:purple;
+  
+  
+  }
+
+
+#drE{
+  color: greenyellow;
+    
+    
+   }
+
+
+#red{
+    color: red;
+    
+    
+    }
+#ye{
+    color:yellow;
+    
+    
+    }
+#pu{
+      color:purple;
+      
+      
+      }
+#gy{
+      color: greenyellow;
+        
+        
+       }
+#cya{
+color: cyan;
+
+
+
+}
+#rbb{
+  color: #e32636;
+
+}
+#bs{
+  color: #87ceeb;
+
+}
+
+
