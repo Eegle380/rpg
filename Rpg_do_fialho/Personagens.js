@@ -264,6 +264,7 @@ if ( ts == "ENACHE") {
     $('#str').html(sasaki.str);
     $('#itema').html(sasaki.itemA);
     $('#hp').html(sasaki.HP);
+    $("#hp").css("width","100%" );
     $('#acc').html(sasaki.accuracy);
 
 
@@ -327,6 +328,7 @@ if ( ts == "IGOR") {
   $('#str').html(igor.str);
   $('#itema').html(igor.itemA);
   $('#hp').html(igor.HP);
+  $("#hp").css("width","100%" );
   $('#acc').html(igor.accuracy);
 
     $("#1skill").html(igor.skill1n);
@@ -388,6 +390,7 @@ if ( ts == "SOBREIRA") {
   $('#str').html(sobreira.str);
   $('#itema').html(sobreira.itemA);
   $('#hp').html(sobreira.HP);
+  $("#hp").css("width","100%" );
   $('#acc').html(sobreira.accuracy);
 
   
@@ -451,6 +454,7 @@ if ( ts == "IQUE") {
   $('#hist').html(ique.hist);
   $('#itema').html(ique.itemA);
   $('#hp').html(ique.HP);
+  $("#hp").css("width","100%" );
   $('#acc').html(ique.accuracy);
 
   $("#extra").empty();
