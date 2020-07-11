@@ -5,6 +5,9 @@
 }
 #Resultado{
   color: coral;
+  position: absolute;
+  left: 500px;
+  top: 500px;
   font-size: 40px;
   border-radius: 5px;
   width: 100px;
@@ -19,6 +22,9 @@
 #Resultado2{
     color: rgb(21, 112, 128);
     font-size: 40px;
+    position: absolute;
+    left: 500px;
+    top: 390px;
     border-radius: 5px;
     width: 100px;
     height: 100px;
@@ -31,6 +37,9 @@
 #Resultado3{
     color: rgb(54, 219, 4);
     font-size: 40px;
+    position: absolute;
+    left: 500px;
+    top: 280px;
     border-radius: 5px;
     width: 100px;
     height: 100px;
@@ -41,6 +50,9 @@
 #Resultado4{
   color: rgb(105, 7, 150);
   font-size: 40px;
+  position: absolute;
+  left: 500px;
+  top: 170px;
   border-radius: 5px;
   width: 100px;
   height: 100px;
@@ -51,6 +63,9 @@
 #Resultado5{
   color: rgb(207, 3, 3);
   font-size: 40px;
+  position: absolute;
+  left: 500px;
+  top: 60px;
   border-radius: 5px;
   width: 100px;
   height: 100px;
