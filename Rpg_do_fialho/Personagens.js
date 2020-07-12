@@ -23,8 +23,9 @@ var enache={
   def: 10,
   accuracy:50,
   str:100,
-  itemA:'Pedaço de madeira',
- /* itemA:'--------',*/
+
+ /* itemA:'Pedaço de madeira',*/
+  itemA:'--------',
 
 
   skill1n:'Soco',
