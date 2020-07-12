@@ -375,10 +375,10 @@ if ( ts == "SOBREIRA") {
 
   $("#tabela").show();
 /* <---------------------------------------------->*/   
-  /*var i = document.getElementById("imgs");
-  i.src = "Icons/Igor.png";
-  i.style.width ="200px";
-  i.style.height ="200px";*/
+  var i = document.getElementById("imgs");
+  i.src = "Icons/SobreiraPixelado.png";
+  i.style.width ="300px";
+  i.style.height ="200px";
 
 
   var c = document.getElementById("imgc");
