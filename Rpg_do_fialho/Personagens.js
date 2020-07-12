@@ -19,7 +19,7 @@ var enache={
   classe : 'Dano',
   HP: 50,
   habilidade: 'Ataque Fatal',
-  atk: 25,
+  atk: 15,
   def: 10,
   accuracy:50,
   str:100,
@@ -55,7 +55,7 @@ var igor={
   classe : 'Tanque',
   HP: 70,
   habilidade: 'Fúria de Gladiador',
-  atk: 15,
+  atk: 10,
   def: 20,
   str:90,
   accuracy: 50,
@@ -91,7 +91,7 @@ var sobreira={
   classe : 'Suporte',
   HP: 40,
   habilidade: 'Cuidados Especiais',
-  atk: 10,
+  atk: 7,
   def: 10,
   str:120,
   itemA:'--------',
@@ -99,7 +99,7 @@ var sobreira={
 
   skill1n:'Primeiros socorros',
   skill1s:20,
-  skill1c:10,
+  skill1c:20,
   skill1dpf:1,
 
 
@@ -130,11 +130,11 @@ var ique={
   classe : 'Flanco',
   HP: 50,
   habilidade: 'Tiro certeiro',
-  atk: 15,
+  atk: 12,
   def: 10,
   str:100,
   accuracy:'70',
-  itemA:'--------',
+  itemA:'--------', 
 
 
   skill1n:'Jogar Pedra',
