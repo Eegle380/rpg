@@ -25,6 +25,7 @@ var enache={
   str:100,
 
  /* itemA:'Pedaço de madeira',*/
+
   itemA:'--------',
 
 
