@@ -23,7 +23,8 @@ var enache={
   def: 10,
   accuracy:50,
   str:100,
-  itemA:'--------',
+  itemA:'Pedaço de madeira',
+ /* itemA:'--------',*/
 
 
   skill1n:'Soco',
@@ -139,11 +140,15 @@ var ique={
 
   skill1n:'Jogar Pedra',
   skill1s:5,
-  skill1d:5,
+  skill1d:3,
  
   skill2n:'-------------',
   skill2s:0,
   skill2d:0,
+  
+  /*skill2n:'Pedaço de vidro',
+  skill2s:0,
+  skill2d:0,*/
   
 
 
