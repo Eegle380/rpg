@@ -250,10 +250,11 @@ if ( ts == "ENACHE") {
 
     $("#tabela").show();
  /* <---------------------------------------------->*/   
-    var i = document.getElementById("imgs");
-   /* i.src = "Icons/Enache.png";
-   i.style.width ="200px";
-   i.style.height ="200px";*/
+  var i = document.getElementById("imgs");
+   i.src = "Icons/SasakiPixel.png";
+   i.style.width ="300px";
+   i.style.height ="200px";
+  
 
    var c = document.getElementById("imgc");
    c.src = "Icons/dano.png";
