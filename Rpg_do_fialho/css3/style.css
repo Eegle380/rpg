@@ -74,7 +74,7 @@
   border-style: solid;
 }
 #C{
-  background-color: #222831;
+  background-color: #000000;
 
 
 
@@ -106,7 +106,7 @@ border-style: solid;
   color: white;
   width: 600px;
   font: 100;
-  background:#222831 ;
+  background:#000000 ;
   transition: width 1s, transform 1s ;
   text-align: center;
   transform: translate(50px);
@@ -204,3 +204,83 @@ color: cyan;
 }
 
 
+#navbar23{
+ background-color: #333131;
+
+
+}
+::-webkit-scrollbar{
+ width: 0;
+}
+#scrollPath{
+ position: fixed;
+ top: 0;
+ right: 0;
+ width: 10px;
+ height: 100%;
+ background: rgba(255, 255, 255, 0.05);
+
+
+}
+#progressbar{
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 10px;
+  background: linear-gradient( to top, #008aff,#00ffe7 );
+
+  animation: animate 5s linear infinite;
+
+}
+@keyframes animate{
+
+  0%,100%{
+   filter: hue-rotate(0deg);
+
+
+  }
+  50%{
+  filter: hue-rotate(360deg);
+
+  }
+}
+#progressbar:before{
+  content: ' ';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient( to top, #008aff,#00ffe7 );
+  filter: blur(30px);
+}
+#progressbar:after{
+  content: ' ';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient( to top, #008aff,#00ffe7 );
+  filter: blur(30px);
+}
+#habilidades{
+ color: transparent;
+ background: linear-gradient( to top, #008aff,#00ffe7 );
+ -webkit-background-clip: text;
+ background-clip: text;
+ animation: animate2 5s linear infinite;
+
+}
+@keyframes animate2{
+ 0%,100%{
+ filter: hue-rotate(0deg);
+
+ }
+ 50%{
+ filter: hue-rotate(360deg);
+
+
+ }
+
+}
