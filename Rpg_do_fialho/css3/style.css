@@ -86,9 +86,29 @@ left: 500px;
 }
 #imgs{
   width: 200px;
+  border-radius: 50%;
+  border: solid;
+  border-color: rgb(23, 216, 23);;
+  padding: 3px;
+  /*background: red;*/
+  animation: animate0 2s infinite;
+
+}
+
+
+@keyframes animate0{
+0%,100%{
+  border-color: transparent;
+}
+50%{
+   border-color: rgb(23, 216, 23);
+
+}
 
 
 }
+
+
 #as{
 color: cornsilk;
 text-align: center;
@@ -282,5 +302,47 @@ color: cyan;
 
 
  }
+
+}
+#chp{
+  padding: 1px;
+  border: solid;
+  border-color: red;
+  border-width: 2px;
+  background-color: transparent;
+  animation: animate3 3s infinite;
+  
+}
+@keyframes animate3{
+ 0%,100%{
+  border-color: transparent ;
+
+ }
+  50%{
+ border-color: red;
+  
+
+  }
+
+}
+#cstr{
+  padding: 1px;
+  border: solid;
+  border-color: rgb(0, 102, 255);
+  border-width: 2px;
+  background-color: transparent;
+  animation: animate4 3s infinite;
+  
+}
+@keyframes animate4{
+ 0%,100%{
+  border-color: transparent ;
+
+ }
+  50%{
+ border-color: rgb(0, 102, 255);;
+  
+
+  }
 
 }

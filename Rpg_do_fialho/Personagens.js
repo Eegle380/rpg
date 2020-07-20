@@ -261,8 +261,8 @@ if ( ts == "ENACHE") {
     $("#tabela").show();
  /* <---------------------------------------------->*/   
   var i = document.getElementById("imgs");
-   i.src = "Icons/SasakiPixel.png";
-   i.style.width ="300px";
+   i.src = "Icons/Sasaki.jfif";
+   i.style.width ="200px";
    i.style.height ="200px";
   
 
@@ -345,7 +345,17 @@ if ( ts == "IGOR") {
   $('#str').html(igor.str);
   $('#itema').html(igor.itemA);
   $('#hp').html(igor.HP);
-  $("#hp").css("width","100%" );
+
+
+  if (igor.HP == 70){
+
+    $("#hp").css("width","100%" );
+  }
+  if (igor.HP == 35){
+
+    $("#hp").css("width","50%" );
+  }
+ 
   $('#acc').html(igor.accuracy);
 
     $("#1skill").html(igor.skill1n);
@@ -386,8 +396,8 @@ if ( ts == "SOBREIRA") {
   $("#tabela").show();
 /* <---------------------------------------------->*/   
   var i = document.getElementById("imgs");
-  i.src = "Icons/SobreiraPixelado.png";
-  i.style.width ="300px";
+  i.src = "Icons/Sobreira.jfif";
+  i.style.width ="200px";
   i.style.height ="200px";
 
 
